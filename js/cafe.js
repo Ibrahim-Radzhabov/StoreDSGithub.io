@@ -158,7 +158,7 @@
         } else {
           mainButton.setParams({
             is_visible: !!Cafe.canPay,
-            text: 'PAY ' + Cafe.formatPrice(Cafe.totalPrice),
+            text: 'Суету наведи тута ' + Cafe.formatPrice(Cafe.totalPrice),
             color: '#31b545'
           }).hideProgress();
         }
